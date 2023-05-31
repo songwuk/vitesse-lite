@@ -1,5 +1,8 @@
 <script setup lang="ts">
 const modelValue = defineModel()
+defineOptions({
+  inheritAttrs: false,
+})
 </script>
 
 <template>
